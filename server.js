@@ -12,11 +12,11 @@ for(var i=0;i<6;i++){
     nameHalls.push(hall[i].name);
 }
 var allNameHalls=nameHalls.join(";");
-console.log(allNameHalls);
+//console.log(allNameHalls);
 http.createServer(function (request, response) {
 
    response.writeHead(200, {'Content-Type': 'text/plain'});
-   response.end('Hello World\n');
+   response.end(allNameHalls);
 }).listen(8081);
 
 console.log('Server running at http://127.0.0.1:8081/')
