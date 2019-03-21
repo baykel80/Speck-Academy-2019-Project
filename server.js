@@ -11,7 +11,8 @@ var nameHalls =[];
 for(var i=0;i<6;i++){
     nameHalls.push(hall[i].name);
 }
-//console.log(nameHalls);
+var allNameHalls=nameHalls.join(";");
+console.log(allNameHalls);
 http.createServer(function (request, response) {
 
    response.writeHead(200, {'Content-Type': 'text/plain'});
