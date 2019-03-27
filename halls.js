@@ -7,4 +7,4 @@ var hall =[
     {id:6,name:"Dvorana 5",reservation:{isReserved:true,reservedFrom:new Date(2019, 2, 14, 18),reservedUntil:new Date(2019, 2, 14, 20)}}
     ];
 
-module.exsports=hall;
+module.exports=hall;
