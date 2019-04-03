@@ -2,6 +2,7 @@ var express=require("express");
 var app=express();
 var arr = require('./halls.js');
 
+app.use(express.static('public'));
 app.get("/",function(req,res){
     res.send("HELLO");
 });
