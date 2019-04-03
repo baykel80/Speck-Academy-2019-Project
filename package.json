@@ -1,0 +1,23 @@
+{
+  "name": "speck-academy-2019-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baykel80/Speck-Academy-2019-Project.git"
+  },
+  "author": "Mihael Istvanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baykel80/Speck-Academy-2019-Project/issues"
+  },
+  "homepage": "https://github.com/baykel80/Speck-Academy-2019-Project#readme"
+}
