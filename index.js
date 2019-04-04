@@ -19,12 +19,14 @@ app.post("/hallsCreate",function (req,res){
 });
 app.post("/hallsUpdate",function (req,res){
     var reservation=false;
+    var date=new Date();
     if(req.body.isReserved=="isReserved"){
         reservation=true;
     }
     for(var i=0;i<req.body.ID;i++){
         if(arr[i].id==req.body.ID){
             arr[i].reservation.isReserved=reservation;
+            arr[i].reservation.reservedFrom=date;
             arr[i].reservation.reservedUntil=req.body.reservedUntil;
             break;
         }
