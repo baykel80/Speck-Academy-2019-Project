@@ -40,7 +40,7 @@
     padding: 0;
     }
     
-    input[type=text], input[type=password] {
+    input[type=text], input[type=password], input[type=datetime] {
       width: 95%;
       padding: 5px 10px;
     }
